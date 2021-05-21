@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+   
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script defer src="fontawesome-free-5.15.2-web/js/all.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<style>
+.color{
+color:#fff!important;
+
+}
+.vl {
+  border-left: 2px solid green;
+  height: 65px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.container-fluid .row .border{
+  border-left: 2px solid green;
+}
+
+}
+
+.filterDiv {
+  float: left;
+  
+  
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #16340c;
+  color: white;
+}
+
+  </style>
+
+<body>
+  <div class="container-fluid">
+
+
+<div class="container-fluid" style="">
+  <div class="row">
+
+    <div class="col-lg-1 col-sm-6 border" style="border-right: 2px solid green;">
+      
+      <img src="images/gov_india.png" height="60px" style="margin: 21px;">
+</div>
+
+
+
+<div class="col-lg-3 col-sm-6 border" style="border-right: 2px solid green;">
+   
+     <div style="margin-top: 18px">
+    
+      <p style="margin-left: 25px">small farmers Agribussiness Consortium<br>small farmers Agribussiness Consortium
+        <br>small farmers Agribussiness Consortium</p>
+    </div>
+
+    </div>
+
+
+
+    <div class="col-md-3 col-sm-6 border" style="border-right: 2px solid green;">
+       
+      <img class="map-responsive" src="images/enam.png" height="60px" style="margin: 21px;margin-left: 25px">
+    </div>
+
+
+
+
+
+    <div class="col-md-5 col-sm-6 border">
+       
+     <p style="margin: 21px;margin-left: 25px"><strong>call us 1800 270 0224</strong></p>
+     
+     <hr style="margin:10px;color:green">
+     <div><a href="registration.html" style="color:green;margin-left: 20px"><i class="fas fa-clipboard" style="font-size: 20px;"></i> &nbsp;&nbsp;<strong>Registration</strong></a>
+      <a href="login.html" style="color:green;margin-left: 20px"><i class="fas fa-user" style="font-size: 20px;"></i>&nbsp;&nbsp;<strong>Login Here</strong></a>
+     </div>
+
+    </div>
+    
+    
+  </div>
+</div>
+
+
+<!-----navbar-------->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-image:url('images/agri2.jpg');">
+<!--   <a class="navbar-brand color" href="#">Navbar</a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link color" href="index.html">Home</a>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About Us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="introduction.html">Introduction</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="our_mission.html">Our Mission</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="our_vision.html">Our Vision</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Schemes & Subscidies
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Notification
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+        <li class="nav-item active">
+        <a class="nav-link color" href="#">Demand & supply <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link color" href="#">Stakeholder</a>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Stakeholders
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Traders</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Farmers</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Customers</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Mandi Board</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle color" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dashboard
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link color" href="#">Logistics</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link color" href="Contact.html">Contact Us</a>
+      </li>
+     
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>
+
+<!-----navbar close------->
+
+
+<marquee direction="left" behavior=alternate scrollmount = "8" onmouseover="this.stop();" onmouseout="this.start();"><img src="images/agri1.jpeg" width="280" height="190" style="margin-left: 10px"><img src="images/agri2.jpg" width="280" height="190" style="margin-left: 10px"><img src="images/rabi.jpg" width="280" height="190" style="margin-left: 10px"><img src="images/kharif.jpg" width="280" height="190" style="margin-left: 10px"><img src="images/agri1.jpeg" width="280" height="190" style="margin-left: 10px"><img src="images/grains.png" width="280" height="190" style="margin-left: 10px"><img src="images/horticulture.jpg" width="280" height="190" style="margin-left: 10px"><img src="images/pulses.png" width="280" height="190" style="margin-left: 10px"></marquee>
+
+
+
+
+
+
+
+
+<!------Third section------->
+
+<div style="background-color: #8cc6a1;;margin: 35px;padding: 10px">
+  <strong style="color:#000">Event Gallery</strong>
+</div>
+
+<div class="container">
+  
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('national')"> National</button>
+  <button class="btn" onclick="filterSelection('state')"> State</button>
+ 
+</div>
+
+<div class="container">
+  <div class="row">
+  <div class="filterDiv national">
+
+    <div class="card" style="width: 20rem; margin:20px">
+  <img src="images/agri1.jpeg" class="card-img-top" alt="..." width="280" height="190">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<br><br>
+    <a href="#" style="color:#071607;">click here for more detail</a>
+  </p>
+    
+  </div>
+</div>
+
+</div>
+  <div class="filterDiv state">
+
+<div class="card" style="width: 20rem;margin:20px">
+  <img src="images/agri2.jpg" class="card-img-top" alt="..." width="280" height="190">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<br><br>
+    <a href="#" style="color:#071607;">click here for more detail</a>
+  </p>
+  </div>
+</div>
+
+  </div>
+
+
+  <div class="filterDiv state">
+
+  <div class="card" style="width: 20rem;margin:20px">
+  <img src="images/cash.jpg" class="card-img-top" alt="..." width="280" height="190">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<br><br>
+    <a href="#" style="color:#071607;">click here for more detail</a>
+  </p>
+  </div>
+</div>
+
+</div>
+
+  <div class="filterDiv national">
+
+  <div class="card" style="width: 18rem;margin:20px">
+  <img src="images/kharif.jpg" class="card-img-top" alt="..." width="280" height="190">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<br><br>
+    <a href="#" style="color:#071607;">click here for more detail</a>
+  </p>
+  </div>
+</div>
+
+</div>
+
+  <div class="filterDiv state">
+
+  <div class="card" style="width: 18rem;margin:20px">
+  <img src="images/rabi.jpg" class="card-img-top" alt="..." width="280" height="190">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<br><br>
+    <a href="#" style="color:#071607;">click here for more detail</a>
+  </p>
+  </div>
+</div>
+
+</div>
+
+  <div class="filterDiv national">
+    
+    <div class="card" style="width: 18rem;margin:20px">
+  <img src="images/plantation.jpeg" class="card-img-top" alt="..." width="280" height="190">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<br><br>
+    <a href="#" style="color:#071607;">click here for more detail</a>
+  </p>
+  </div>
+</div>
+
+  </div>
+
+  <div class="filterDiv state">
+    
+    <div class="card" style="width: 18rem;margin:20px">
+  <img src="images/pulses.png" class="card-img-top" alt="..." width="280" height="190">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<br><br>
+    <a href="#" style="color:#071607;">click here for more detail</a>
+  </p>
+  </div>
+</div>
+
+  </div>
+  <div class="filterDiv national">
+    
+    <div class="card" style="width: 18rem;margin:20px">
+  <img src="images/kharif.jpg" class="card-img-top" alt="..." width="280" height="190">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<br><br>
+    <a href="#" style="color:#071607;">click here for more detail</a>
+  </p>
+  </div>
+</div>
+
+  </div>
+  <div class="filterDiv state">
+    
+    <div class="card" style="width: 18rem;margin:20px">
+  <img src="images/agri1.jpeg" class="card-img-top" alt="..." width="280" height="190">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<br><br>
+    <a href="#" style="color:#071607;">click here for more detail</a>
+  </p>
+  </div>
+</div>
+
+  </div>
+  <div class="filterDiv national">
+    <div class="card" style="width: 18rem;margin:20px">
+  <img src="images/agri2.jpg" class="card-img-top" alt="..." width="280" height="190">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<br><br>
+    <a href="#" style="color:#071607;">click here for more detail</a>
+  </p>
+  </div>
+</div>
+</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+<!--------End Of Third Section------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+
+<footer class="bg-light text-center text-lg-start" style="background-color: #212121!important;color:#fff;">
+  <!-- Grid container -->
+  <div class="container-fluid">
+    <!--Grid row-->
+    <div class="row" style="padding-top:  20px;padding-bottom:  20px;">
+     
+     <div class="col-md-2"></div>
+
+<div class="col-md-1">
+  <a href="">
+    <img src="images/footer1.jpg">
+  </a>
+</div>
+
+<div class="col-md-1">
+  <a href="">
+    <img src="images/footer2.jpg">
+  </a>
+</div>
+
+<div class="col-md-1">
+  <a href="">
+    <img src="images/footer3.jpg">
+  </a>
+</div>
+
+
+<div class="col-md-1">
+  <a href="">
+    <img src="images/footer5.jpg">
+  </a>
+</div> 
+
+<div class="col-md-1">
+  <a href="">
+    <img src="images/footer6.jpg">
+  </a>
+</div>
+
+<div class="col-md-1">
+  <a href=""><img src="images/footer7.png"></a>
+</div>
+
+<div class="col-md-1">
+  <a href=""><img src="images/footer8.png"></a>
+</div>
+
+
+<div class="col-md-1">
+  <a href="">
+    <img src="images/footer4.jpg">
+  </a>
+</div>
+
+
+
+
+
+
+     <div class="col-md-2"></div>
+
+     
+     
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <p style="color:#fff; margin-top: 10px">Department of Agriculture, Cooperation & Farmers' Welfare, Ministry of Agriculture and Farmers' Welfare, Government of India</p>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+</div>
+
+
+
+
+
+  <!-- Scripts -->
+    
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+  </body>
+
+
+
+
+</html>
